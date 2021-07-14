@@ -5,3 +5,12 @@ In this project, **classifier** is bulit that learns to associate emojis with se
 
 ### Models and Results
 Building a machine learning model involves mainly two steps. The first step is to train a model. After that, we evaluate the model on a separate data set---i.e. we don't evaluate performance on the same data we learned from. For this project, we use four classifiers and train each classier to see which one works better for this project. To train and test the performance of each model, we split the data set into a "training set" and a "test set", in the ratio of 80% and 20%. By separating the data, we can make sure that the model generalizes well and can perform well in the real world.
+
+
+### Example/Demo
+Here are four example sentences and the emojis the classifier associates them with:
+
+😂 Thank you for dinner!       
+😢 I don't like it          
+😱 My car skidded on the wet street        
+😢 My cat died       
